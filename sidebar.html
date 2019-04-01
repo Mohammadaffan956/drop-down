@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+    	<style>
+    		.drop {
+    			background-color: grey;
+    			padding-top: 0px;
+    		}
+    		.drop ul {
+    			list-style: none;
+    			text-align: center;
+    		}
+    		.drop ul li {
+    			display: inline;
+    			font: 30px arial;
+    			color: black;
+    			margin-right: 10px;
+    		}
+    		.down {
+    			background-color: grey;
+    		}
+    		.down ul {
+    			list-style: none;
+    		}
+    		.down ul li {
+    			margin-top: 10px;
+    		}
+    		.down ul li a {
+				font: 20px arial;
+				color: black;
+				text-decoration: none;
+    		}
+    	</style>
+    	<div class="container">
+    		<div class="drop">
+    			<ul>
+    				<li id="ab">about</li>
+    			</ul>
+        </div>
+    	<div class="container">
+    		<div class="row check">
+    			<div class="col-sm-3">
+    				<div class="down">
+    					<ul>
+    						<li><a href="#">HTML</a></li>
+    						<li><a href="#">CSS3</a></li>
+    						<li><a href="#">BOOTSTRP</a></li>
+    						<li><a href="#">RESPONSIVE</a></li>
+    						<li><a href="#">JAVASCRIPT</a></li>
+    						<li><a href="#">JQUERY</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="col-sm-3">
+    				<div class="down">
+    					<ul>
+    						<li><a href="#">HTML</a></li>
+    						<li><a href="#">CSS3</a></li>
+    						<li><a href="#">BOOTSTRP</a></li>
+    						<li><a href="#">RESPONSIVE</a></li>
+    						<li><a href="#">JAVASCRIPT</a></li>
+    						<li><a href="#">JQUERY</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="col-sm-3">
+    				<div class="down">
+    					<ul>
+    						<li><a href="#">HTML</a></li>
+    						<li><a href="#">CSS3</a></li>
+    						<li><a href="#">BOOTSTRP</a></li>
+    						<li><a href="#">RESPONSIVE</a></li>
+    						<li><a href="#">JAVASCRIPT</a></li>
+    						<li><a href="#">JQUERY</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="col-sm-3">
+    				<div class="down">
+    					<ul>
+    						<li><a href="#">HTML</a></li>
+    						<li><a href="#">CSS3</a></li>
+    						<li><a href="#">BOOTSTRP</a></li>
+    						<li><a href="#">RESPONSIVE</a></li>
+    						<li><a href="#">JAVASCRIPT</a></li>
+    						<li><a href="#">JQUERY</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+        	</div>
+    	</div>
+    	<button>Drop</button>
+        <script src="js/jquery.js"></script>
+    	<script>
+    		$(document).ready(function(){
+		    $("#ab").click(function(){
+		        $(".check").animate({
+		        	width: "toggle"
+		        });
+		    });
+		});
+    	</script>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
